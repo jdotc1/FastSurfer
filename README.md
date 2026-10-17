@@ -1,3 +1,13 @@
+## Brain segmentation and cortical surface workflows
+
+This is a development fork of [FastSurfer](https://github.com/Deep-MI/FastSurfer), a neuroimaging pipeline combining neural-network segmentation with cortical surface reconstruction. Upstream offers volumetric measurements, cortical labels, and thickness analysis from MRI, with separate segmentation and surface stages that researchers can select for their workflow.
+
+**Merged contribution:** [PR #950](https://github.com/Deep-MI/FastSurfer/pull/950) quotes paths in the FreeSurfer stub-link helper. It was merged into upstream's `dev` branch; consult upstream release notes for packaged availability.
+
+Use the [official documentation](https://fastsurfer.org) and installation links below to choose an environment and review input-image requirements. The surface workflow's FreeSurfer license requirement is documented upstream. The [branch comparison](https://github.com/Deep-MI/FastSurfer/compare/dev...jdotc1:dev) shows this fork's default branch.
+
+---
+
 [![DOI](https://zenodo.org/badge/211859022.svg)](https://zenodo.org/badge/latestdoi/211859022)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Deep-MI/FastSurfer/blob/stable/Tutorial/Tutorial_FastSurferCNN_QuickSeg.ipynb)
